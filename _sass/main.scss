@@ -1,0 +1,42 @@
+/* This will make the content take up all available space of the viewport, pushing the footer to the bottom when there is not enough content to do so. */
+
+body {
+  margin-bottom: 60px;
+  min-height: 100vh;
+}
+
+.flex-grow {
+   flex: 1;
+}
+
+/* Style the blog posts which are written in markdown. */
+
+div#blog-post p {
+
+}
+
+/* Unstyled link helper class. */
+.link-unstyled {
+  &,
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:hover {
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    border-radius: inherit;
+    border: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+    padding: inherit;
+    vertical-align: inherit;
+  }
+}

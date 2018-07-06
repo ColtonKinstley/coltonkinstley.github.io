@@ -1,0 +1,15 @@
+- name: Shell Scripts
+  github: scripts
+  pages: True
+  
+- name: Calculus Recitation
+  github: calculus1 
+  pages: True
+
+- name: Topology
+  github: topology
+  pages: True
+
+- name: Self Avoiding Walk
+  github: self-avoiding-walk
+  pages: False

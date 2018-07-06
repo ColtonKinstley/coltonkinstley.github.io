@@ -1,0 +1,7 @@
+{% for project in site.data.projects %}
+  {% if project.pages %}
+    <a class="dropdown-item" href="https://coltonkinstley.github.io/{{ project.github }}/">{{ project.name }}</a>
+  {% else %}
+    <a class="dropdown-item" href="https://github.com/ColtonKinstley/{{ project.github }}">{{ project.name }}</a>
+  {% endif %}
+{% endfor %}

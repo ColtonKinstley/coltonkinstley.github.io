@@ -1,0 +1,18 @@
+<div class="col-lg-4 col-md-12 mt-5">
+      <div class="card">
+        <a href="{{ "/blog" | relative }}">
+          <img class="card-img-top", src={{ "/assets/img/blog-lg.png" | relative }} ></img>
+        </a>
+        <div class="card-body">
+          <div class="card-title">
+            <span class="display-4"><a class="link-unstyled" href="{{ "/blog" | relative }}">Blog</a></span>
+              {% if site.data.blog.new %}
+                <a class="link-unstyled" href="{{ "/blog" | relative }}"><span class="badge badge-pill badge-info">New</span></a>
+              {% endif %}
+          </div>
+          <div class="card-text">
+            I think it was Dr. Francis Su's MAA presidential address <a href="https://mathyawp.wordpress.com/2017/01/08/mathematics-for-human-flourishing/">Mathematics for Human Flourishing</a> that first planted the seeds of blogging into my subconscious. Finding the wonderful <a href="http://www.math3ma.com">math3ma</a> blog and youtube channels like <a href="https://www.youtube.com/3blue1brown">3blue1brown</a> have inspired me to do some recreational math-themed  writing.
+          </div>
+        </div>
+      </div>
+    </div>

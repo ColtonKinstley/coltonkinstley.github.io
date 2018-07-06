@@ -1,0 +1,27 @@
+<div class="col-lg-4 col-md-6 mt-5">
+      <div class="card">
+        <img class="card-img-top", src={{ "/assets/img/projects-lg.png" | relative }} ></img>
+        <div class="card-body">
+          <div class="card-title display-4">
+            Projects
+          </div>
+          <p class="card-text">
+            These are some of the repositories that I have stored on github. Although most of these projects are only of direct use to me, I keep them listed here for posterity and in the hope that someone may find inspiration if solving a similar problem.
+          </p>
+
+
+          <div class="btn-group dropright pt-1 pl-4">
+            <a  href="https://github.com/{{ site.github_username }}" class="btn btn-primary" role="button">
+              Github
+            </a>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropright</span>
+            </button>
+            <div class="dropdown-menu">
+              {% include projects_dropdown_items.html %}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article class="container pt-3">
+  <div class="row">
+    <div class="col-md-3 pb-2">
+      <nav class="navbar navbar-expand-md navbar-light bg-light flex-column">
+        <div class="nav-text h2">Articles</div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="">more</span>
+          </button>
+          <div class="collapse navbar-collapse flex-column" id="navbarNav">
+            <a class="nav-link" href="#">{{ page.title }}</a>
+          </div>
+      </nav>
+    </div>
+
+    <div class="col-md-9 col-lg-8 pb-3">
+      <div id="blog-post" class="card">
+          <img class="card-img-top" src="{{ "/assets/img/dice-lg.jpg" | relative }}"></img>
+        <div class="card-body">
+          <div class="card-title">
+            <h1>{{ page.title }}</h1>
+            <p class="text-muted">{{ site.time | date_to_long_string: "ordinal" }}</p>
+          </div>
+          <div class="card-text">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

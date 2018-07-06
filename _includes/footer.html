@@ -1,0 +1,44 @@
+<footer class="container-flex text-center bg-light">
+      <div class="row align-items-center no-gutters pt-2">
+	      <div class="col-md-3 offset-md-1">
+          <ul class="list-unstyled">
+		  <li>
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            {%- if site.location -%} 
+            <li><address>{{ site.location | escape }}</address></li>
+            {%- endif -%}
+	  </ul>
+      </div>
+      <div class="col-md-4">
+	      <ul class="list-inline">
+		      {% if site.github_username %}
+			      <li class="list-inline-item"><a href='https://github.com/{{ site.github_username | escape }}'><i class="fab fa-github"> {{ site.github_username | escape }}</i></a>
+			      </li>		      {% endif %}
+		      {% if site.twitter_username | escape %}
+			      <li class="list-inline-item">
+				      <a href='http://www.twitter.com/{{ site.twitter_username | escape }}'><i class="fab fa-twitter"> {{ site.twitter_username | escape }}</i></a>
+			      </li>
+		      {% endif %}
+		      {% if site.linkedin_username | escape %}
+			      <li class="list-inline-item">
+				      <a href='http://www.linkedin.com/in/{{ site.linkedin_username | escape }}'><i class="fab fa-linkedin"> {{ site.linkedin_username | escape }}</i></a>
+			      </li>
+		      {% endif %}
+	      </ul>
+	
+		      
+
+      </div>
+
+      <div class="col-md-3">
+	      <span class="text-muted"><p>{{- site.description | escape -}}</p></span>
+      </div>
+</footer>
