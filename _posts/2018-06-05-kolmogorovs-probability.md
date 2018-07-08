@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: Why do we need Kolmogorovs probability?
-date: 2018-06-05 10:10:00 0100
-permalink: Kolmogorovs-Probability/
+time: 2018-06-05 10:10:00 0100
+permalink: /blog/Kolmogorovs-Probability/
 categories: probability measure-theory statistics
 ---
 

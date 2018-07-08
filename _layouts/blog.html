@@ -6,13 +6,15 @@ layout: default
   <div class="row">
     <div class="col-md-3 pb-2">
       <nav class="navbar navbar-expand-md navbar-light bg-light flex-column">
-        <div class="nav-text h2">Articles</div>
+        <div class="nav-text h2">Articles 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="">more</span>
+            <i class="fa fa-plus"></i>
           </button>
+        
+        </div>
           <div class="collapse navbar-collapse flex-column" id="navbarNav">
-            {% for page in site.pages %}
-              <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+            {% for post in site.posts %}
+              <a class="nav-link" href="{{ post.url }}">{{ post.title }}</a>
             {% endfor %}
           </div>
       </nav>
@@ -23,8 +25,8 @@ layout: default
         <img class="card-img-top" src="{{ "/assets/img/dice-lg.jpg" }}"></img>
         <div class="card-body">
           <div class="card-title">
-            <h1>{{ page.title }}</h1>
-            <p class="text-muted">{{ page.time | date_to_long_string }}</p>
+            <h1 class="display-4 text-center">{{ page.title }}</h1>
+            <p class="text-muted text-center">{{ page.time | date_to_long_string }}</p>
           </div>
           <div class="card-text">
             {{ content }}
