@@ -11,7 +11,9 @@ layout: default
             <span class="">more</span>
           </button>
           <div class="collapse navbar-collapse flex-column" id="navbarNav">
-            <a class="nav-link" href="#">{{ page.title }}</a>
+            {% for page in site.pages %}
+              <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+            {% endfor %}
           </div>
       </nav>
     </div>
@@ -22,7 +24,7 @@ layout: default
         <div class="card-body">
           <div class="card-title">
             <h1>{{ page.title }}</h1>
-            <p class="text-muted">{{ site.time | date_to_long_string }}</p>
+            <p class="text-muted">{{ page.time | date_to_long_string }}</p>
           </div>
           <div class="card-text">
             {{ content }}

@@ -1,11 +1,11 @@
 <div class="col-lg-4 col-md-12 mt-5">
       <div class="card">
-        <a href="{{ "/blog" | relative }}">
+        <a href="{{ site.posts[0].url }}">
           <img class="card-img-top", src={{ "/assets/img/blog-lg.png" | relative }} ></img>
         </a>
         <div class="card-body">
           <div class="card-title">
-            <span class="display-4"><a class="link-unstyled" href="{{ "/blog" | relative }}">Blog</a></span>
+            <span class="display-4"><a class="link-unstyled" href="{{ site.posts[0].url }}">Blog</a></span>
               {% if site.data.blog.new %}
                 <a class="link-unstyled" href="{{ "/blog" | relative }}"><span class="badge badge-pill badge-info">New</span></a>
               {% endif %}
