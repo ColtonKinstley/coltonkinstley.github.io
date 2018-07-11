@@ -4,6 +4,7 @@ title: Corollaries
 time: 2018-06-03 10:10:00 0100
 permalink: /blog/corollaries/
 categories: 
+image: logs-lg.jpg
 ---
 
 In mathematical writing a corollary is a result that follows easily from a larger theorem. In particular this result would not be seen as major or difficult but would rather be considered a natural application of a previous theorem. I named this blog Corollaries because that is precisely what I hope to catalog here; neat and short tidbits of mathematics, corollaries.
