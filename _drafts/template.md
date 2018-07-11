@@ -6,5 +6,5 @@ permalink: /blog/title/
 categories: statistics 
 ---
 
-### Title
+### Section Title
 
