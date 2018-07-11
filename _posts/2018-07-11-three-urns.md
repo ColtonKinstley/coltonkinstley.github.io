@@ -28,7 +28,8 @@ We will need to talk about the "completion" of an infinite process in this exper
 
 
 $$
-\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots = \sum_{i=1}^\infty \frac{1}{2^i} = \frac{\frac{1}{2}}{1-\frac{1}{2}}=1 \text{ min.}
+\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots = \sum_{i=1}^\infty \frac{1}{2^i} \\
+= \frac{\frac{1}{2}}{1-\frac{1}{2}}=1 \text{ min.}
 $$
 
 So we have completed our infinite task in a finite amount of time. 
