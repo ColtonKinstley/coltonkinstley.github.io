@@ -25,7 +25,7 @@ description: > # this means to ignore newlines until "baseurl:"
         about mathematics, machine learning and data science.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://coltonkinstley.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: coltonkinstley
 github_username: coltonkinstley
 linkedin_username: coltonkinstley
