@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: Corollaries
-time: 2018-06-03 10:10:00 0100
-permalink: /drafts/corollaries/
+time: 2018-07-03 10:10:00 0100
+permalink: /blog/corollaries/
 categories: 
 image: logs-lg.jpg
 ---

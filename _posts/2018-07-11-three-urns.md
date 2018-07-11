@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: The Three Urns
-time: 2018-07-10 10:10:00 0100
-permalink: /drafts/the-three-urns/
+title: Three Urns
+time: 2018-07-11 10:10:00 0100
+permalink: /blog/the-three-urns/
 categories: statistics probability
 image: balls-lg.jpg
 comments: "(This article was adapted from an example in <em>A First Course in Probability</em> [Ros10])"
@@ -13,11 +13,14 @@ further:
   - cardinals:
     text: Learn more about cardinal arithmetic on wikipedia.
     link: https://en.wikipedia.org/wiki/Cardinal_number#Cardinal_arithmetic
+  - stackexchange:
+    text: Check out this great answer on stackexchange discussing the topic of this post.
+    link: https://stats.stackexchange.com/a/315670
 references:
 - "[Ros10] S.M. Ross. <em>A First Course in Probability.</em> Pearson Prentice Hall, 2010.: 46-48"
 ---
 
-As I mentioned in my previous post I would like to give and example of why we need to bring measure theory into probability. This amounts to showing that there exist certain events that, for whatever reason, cannot be assigned a probability. And, therefore we must make a decision to only focus on some events and ignore others. In some sense this is a straightforward exercise, you'll find some some version of it at the beginning of any introductory book on rigorous probability theory or measure theory. On the other hand the creation of this event utilises some techniques that are not widely used outside of mathematics, and thus we will have to spend some time discussing some seemingly unrelated ideas before I can get to the punchline. In light of this upcoming detour I thought I would wet your apatite for this journey in the weird and wonderful world of probability by discussing a short thought experiment that illustrates what unexpected outcomes can arise from random processes. As with many good stories, this one comes in three parts.
+As I mentioned in my previous post I would like to give and example of why we need to bring measure theory into probability. This amounts to showing that there exist certain events that, for whatever reason, cannot be assigned a probability. And, therefore we must make a decision to only focus on some events and ignore others. In some sense this is a straightforward exercise, you'll find some some version of it at the beginning of any introductory book on rigorous probability theory or measure theory. On the other, hand the creation of this event utilises some techniques that are not widely used outside of mathematics, and thus we will have to spend some time discussing some seemingly unrelated ideas before I can get to the punchline. In light of this upcoming detour I thought I would wet your apatite for this journey in the weird and wonderful world of probability by discussing a short thought experiment that illustrates what unexpected outcomes can arise from random processes. As with many good stories, this one comes in three parts.
 
 ### An infinite task
 
