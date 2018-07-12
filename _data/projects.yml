@@ -1,3 +1,7 @@
+- name: Corollaries (this website)
+  github: coltonkinstley.github.io
+  pages: False
+
 - name: Shell Scripts
   github: scripts
   pages: True
