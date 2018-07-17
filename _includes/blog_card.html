@@ -10,7 +10,7 @@
               {% capture last_post_age_str %}{{ "now" | date: "%s" | minus: post_time }}{% endcapture %}
               {% assign last_post_age = last_post_age_str | plus: 0 %}
               {% if last_post_age < 605000 %}
-                <a class="link-unstyled" href="{{ "/blog" | relative }}"><span class="badge badge-pill badge-info">New {{ last_post_age_str }}</span></a>
+                <a class="link-unstyled" href="{{ "/blog" | relative }}"><span class="badge badge-pill badge-info">New</span></a>
               {% endif %}
           </div>
           <div class="card-text">
