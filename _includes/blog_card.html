@@ -7,13 +7,14 @@
           <div class="card-title">
             <span class="display-4"><a class="link-unstyled" href="{{ site.posts[0].url }}">Blog</a></span>
               {% capture post_time %}{{ site.posts[0].time | date: "%s" }}{% endcapture %}
-              {% capture last_post %}{{ "now" | date: "%s" | minus: post_time }}{% endcapture %}
-              {% if last_post < "605000" %}
-                <a class="link-unstyled" href="{{ "/blog" | relative }}"><span class="badge badge-pill badge-info">New</span></a>
+              {% capture last_post_age_str %}{{ "now" | date: "%s" | minus: post_time }}{% endcapture %}
+              {% assign last_post_age = last_post_age_str | plus: 0 %}
+              {% if last_post_age < 605000 %}
+                <a class="link-unstyled" href="{{ "/blog" | relative }}"><span class="badge badge-pill badge-info">New {{ last_post_age_str }}</span></a>
               {% endif %}
           </div>
           <div class="card-text">
-            I think it was Dr. Francis Su's MAA presidential address <a href="https://mathyawp.wordpress.com/2017/01/08/mathematics-for-human-flourishing/">Mathematics for Human Flourishing</a> that first planted the seeds of blogging into my subconscious. Finding the wonderful <a href="http://www.math3ma.com">math3ma</a> blog and youtube channels like <a href="https://www.youtube.com/3blue1brown">3blue1brown</a> have inspired me to do some recreational math-themed  writing.
+            I think it was Dr. Francis Su's MAA presidential address <a href="https://mathyawp.wordpress.com/2017/01/08/mathematics-for-human-flourishing/">Mathematics for Human Flourishing</a> that first planted the seeds of blogging into my subconscious. Finding the wonderful <a href="http://www.math3ma.com">math3ma</a> blog and youtube channels like <a href="https://www.youtube.com/3blue1brown">3blue1brown</a> have inspired me to do some recreational math-themed writing.
           </div>
         </div>
       </div>
