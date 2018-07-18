@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: test
-time: 2018-06-03 10:10:00 0100
+time: 2018-07-17 10:10:00 +0100
 permalink: /blog/test/
 categories: statistics 
 image: math-lg.jpg
@@ -15,6 +15,7 @@ further:
     link: https://en.wikipedia.org/wiki/Cardinal_number#Cardinal_arithmetic
 references:
 - "[Ros10] S.M. Ross. <em>A First Course in Probability.</em> Pearson Prentice Hall, 2010.: 46-48"
+- "Use quotes to escape liquid syntax."
 ---
 
 ### Section Title

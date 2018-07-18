@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Three Urns
-time: 2018-07-11 10:10:00 0100
+time: 2018-07-11 10:10:00 +0100
 permalink: /blog/the-three-urns/
 categories: statistics probability
 image: balls-lg.jpg
