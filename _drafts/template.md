@@ -15,6 +15,7 @@ further:
     link: https://en.wikipedia.org/wiki/Cardinal_number#Cardinal_arithmetic
 references:
 - "[Ros10] S.M. Ross. <em>A First Course in Probability.</em> Pearson Prentice Hall, 2010.: 46-48"
+- "Use quotes to escape yaml syntax"
 ---
 
 ### Section Title
