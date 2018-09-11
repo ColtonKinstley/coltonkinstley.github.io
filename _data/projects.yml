@@ -5,6 +5,10 @@
 - name: Shell Scripts
   github: scripts
   pages: True
+
+- name: Machine Learning
+  github: machinelearning
+  pages: False
   
 - name: Calculus Recitation
   github: calculus1 
