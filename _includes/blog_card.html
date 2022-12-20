@@ -5,7 +5,7 @@
         </a>
         <div class="card-body">
           <div class="card-title">
-            <span class="display-4"><a class="link-unstyled" href="{{ site.posts[0].url }}">Blog</a></span>
+            <span class="display-4"><a class="link-dark" href="{{ site.posts[0].url }}">Blog</a></span>
               {% capture post_time %}{{ site.posts[0].time | date: "%s" }}{% endcapture %}
               {% capture last_post_age_str %}{{ "now" | date: "%s" | minus: post_time }}{% endcapture %}
               {% assign last_post_age = last_post_age_str | plus: 0 %}
@@ -14,11 +14,11 @@
               {% endif %}
           </div>
           <div class="card-text">
-            I have written a few things and put them here.
+              I have written a few things and put them <a href="{{ site.posts[0].url }}">here</a>.
 
-            For good mathematical content please see:
+            For other good mathematical content please see:
             <ul>
-                <li><a href="https://mathyawp.wordpress.com/2017/01/08/mathematics-for-human-flourishing/">Mathematics for Human Flourishing</a</li>
+                <li><a href="https://mathyawp.wordpress.com/2017/01/08/mathematics-for-human-flourishing/">Mathematics for Human Flourishing by Dr. Francis Su</a</li>
                 <li><a href="http://chalkdustmagazine.com">Chalkdust magazine</a></li>
                 <li><a href="http://www.math3ma.com">math3ma</a></li>
                 <li><a href="https://www.quantamagazine.org">Quanta magazine</a></li>
